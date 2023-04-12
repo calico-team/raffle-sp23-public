@@ -1,10 +1,14 @@
-# raffle-fa22
+# raffle-sp23
 
-TODO copy over relevant announcements that explain how the code works
-TODO add/fix documentation because some of this stuff below is outdated
+This is the code that runs the raffle for CALICO Spring '23!
 
-- When converting the leaderboard with https://www.convertcsv.com/html-table-to-csv.htm, the first team's column has the contest name in it. Remove it!
-- Make sure the column indices match up (visually confirm-- index 0 may not be the first column)
-- Make sure you adjust the column numbers of everything each time
-- Manually adjust the formula for calculating tickets if you want
-- Currently uses score to calculate tickets, rather than which problems were solved
+Install stuff with:
+```
+pip install -r requirements.txt
+```
+
+Then run `raffle.py` and see the magic happen!
+
+Or you can just look at `results.txt`.
+
+TODO stop procrastinating writing documentation
